@@ -1,0 +1,40 @@
+body
+{
+    display: flex;
+}
+
+#display
+{
+    border: 1.5px black solid;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    text-align: right;
+    font-size: 25px;
+}
+
+#fullCalc
+{
+
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    flex: stretch;
+    margin: auto;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    flex: stretch;
+}   
+
+button
+{
+    height: 50px;
+    width: 50px;   
+}
